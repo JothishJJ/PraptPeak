@@ -13,7 +13,7 @@ export default function LoginForm() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold text-center mb-8">Welcome Back</h1>
+      <h1 className="text-3xl font-bold text-center mb-8">Welcome!</h1>
       <form onSubmit={handleSubmit} className="space-y-6">
         <InputField
           type="email"
@@ -35,7 +35,7 @@ export default function LoginForm() {
         </button>
       </form>
       <div className="text-center my-6 text-gray-500 dark:text-gray-400">OR</div>
-      <button>Sign In with Google</button>
+      <button>Sign Up with Google</button>
     </>
   );
 }
